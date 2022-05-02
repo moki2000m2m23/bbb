@@ -1,24 +1,24 @@
 <?php
 	$cfg = array(
 		'dbh' => 'localhost', //хост базы данных
-		'dbu' => '#', //пользователь базы данных
-		'dbp' => '#', //пароль базы данных
-		'dbn' => '#', //имя базы данных
+		'dbu' => 'u1669761_moki200', //пользователь базы данных
+		'dbp' => 'solnce972006', //пароль базы данных
+		'dbn' => 'u1669761_moki2000m3m', //имя базы данных
 		'service' => false, //сервисный режим(у игроков приложение пишет о тех. работах, у админов продолжает работать)
-		'admins' => array( //список id админов через запятую
+		'admins' => array(564001327 //список id админов через запятую
 			'#'
 		),
-		'group_id' => '-#', //id группы
+		'group_id' => '-208457956', //id группы
 		'hash_secret' => '65f9sf667lm32k', //секретный ключ для генерации хэшей
 
-		'secret' => '#', // секретка от приложения
-      	'appid' => '#',
+		'secret' => 'http://example.com', // секретка от приложения
+      	'appid' => 'http://example.com',
 
-		'vktoken' => "#", // токен вк
+		'vktoken' => "be9515c7777980b2c555f3d255fedb866a50c5e26ab1a009009eeb61fcb11fcf5f5489599ec09120bde9c", // токен вк
 
-		'vc_api_key' => '#', // ключ vk coin
-		'vc_api_uid' => '#',  // id админа, от имени которого получен ключ vk coin
-		'vc_shop_name' => '#',  // Имя Магазина VkCoin
+		'vc_api_key' => '.YkRFB_Y*;lwi-CdX!v2FX2i1IhCLlpU#eUWeEY1[W.2GIzHil', // ключ vk coin
+		'vc_api_uid' => '564001327',  // id админа, от имени которого получен ключ vk coin
+		'vc_shop_name' => 'Mini',  // Имя Магазина VkCoin
 		'vc_exchange_rate' => 1,
       
       	'menu-btns' => 3      
